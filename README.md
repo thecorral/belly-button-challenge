@@ -1,1 +1,7 @@
-# belly-button-challenge
+## belly-button-challenge
+
+This challenge involves building an interactive dashboard to explore data related to microbial organisms inhabiting human belly buttons. The data is provided in a JSON file and contains a list of sample IDs, sample values, OTU (Operational Taxonomic Unit) IDs, and OTU labels for each individual tested. The dashboard allows users to select a specific test subject and visualize the bacterial data associated with that subject.
+
+The dashboard is built using D3.js, Plotly, and Bootstrap. The initial page load populates a dropdown menu with the available sample IDs and displays a bar chart and bubble chart for the first sample in the dataset. The bar chart displays the top ten OTUs found in the sample, while the bubble chart shows all OTUs found in the sample, with each dot representing an individual OTU.
+
+The dashboard also includes a panel displaying demographic information for the selected test subject, including their ID, ethnicity, age, gender, location, and weekly belly button wash frequency. Additionally, a gauge chart is dynamically generated to display the weekly belly button wash frequency of the selected subject. The dashboard allows users to select a new test subject from the dropdown menu, which updates all visualizations and demographic information accordingly.
